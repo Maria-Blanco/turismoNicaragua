@@ -7,6 +7,15 @@
 table, tr, td, th { 
                 border: 1px solid black;
 }
+th, tr {
+            width: 19%;
+}
+th {
+        text-align: center;
+}
+td {
+        padding: 5px;
+}
 #navegacion {
                 list-style: none;
                 display: inline-flex;
@@ -14,7 +23,7 @@ table, tr, td, th {
                 padding: 5px;
                 margin: 0px;
                 width: 100%;
-                background-color: rgba(32, 178, 171, 0.705);
+                background-color: rgba(47, 134, 221, 0.829);
 }
 #navegacion > li {
                     margin-left: 10px;
@@ -22,11 +31,29 @@ table, tr, td, th {
 }
 #navegacion > li > a {
                         text-decoration: none;
-                        color: black;
+                        color: white;
                         font-size: large;
+}
+#navegacion > li > a:hover {
+                                font-size: larger;
+                                color: black;
+                                font-weight: bold;
 }
 #banner {
             text-align: center;
             background-color: rgba(255, 255, 255, 0.753);
             padding: 5px;
+}
+main {
+        padding: 10px;
+        color: black;
+}
+img {
+        margin: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+h3 {
+        text-align: center;
 }
