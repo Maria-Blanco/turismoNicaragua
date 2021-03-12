@@ -1,5 +1,32 @@
 #cuerpo {
-            background-image: url(../imagenes/fondo.jpg) center max-width;
+            background-image: url(../imagenes/fondo.jpg);
+            background-size: cover;
             width: 100%;
             height: 100%;
+}
+table, tr, td, th { 
+                border: 1px solid black;
+}
+#navegacion {
+                list-style: none;
+                display: inline-flex;
+                justify-content: center;
+                padding: 5px;
+                margin: 0px;
+                width: 100%;
+                background-color: rgba(32, 178, 171, 0.705);
+}
+#navegacion > li {
+                    margin-left: 10px;
+                    margin-right: 10px;
+}
+#navegacion > li > a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: large;
+}
+#banner {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.753);
+            padding: 5px;
 }
